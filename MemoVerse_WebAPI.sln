@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34622.214
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MemoVerse_WebAPI", "MemoVerse_WebAPI\MemoVerse_WebAPI.csproj", "{ED205B56-DB85-41D6-9A30-9AE74FED0B04}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Database", "Database", "{7061EF6C-1ACA-4D57-AE4B-F2010A24F933}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MemoVerse_Models", "MemoVerse_Models\MemoVerse_Models.csproj", "{1A174179-BBEA-4686-B900-EF84DDEF0F8C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MemoVerse_Database", "MemoVerse_Database\MemoVerse_Database.csproj", "{0F88A3A6-1299-42D9-B2EE-D50512306BAE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DTO", "DTO", "{F56DABD4-4A73-408C-9EC9-0F82639777D0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MemoVerse_DTO", "MemoVerse_DTO\MemoVerse_DTO.csproj", "{F29354A7-EFB3-4637-AB8F-C4AD2C318C32}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Commend", "Commend", "{8C26AEE3-85CB-4BA1-90D0-EC72361C3312}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MemoVerse_Commends", "MemoVerse_Commends\MemoVerse_Commends.csproj", "{0F86843E-9E93-4CAD-82D1-135CCB9B0C39}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ED205B56-DB85-41D6-9A30-9AE74FED0B04}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED205B56-DB85-41D6-9A30-9AE74FED0B04}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED205B56-DB85-41D6-9A30-9AE74FED0B04}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED205B56-DB85-41D6-9A30-9AE74FED0B04}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A174179-BBEA-4686-B900-EF84DDEF0F8C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A174179-BBEA-4686-B900-EF84DDEF0F8C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A174179-BBEA-4686-B900-EF84DDEF0F8C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A174179-BBEA-4686-B900-EF84DDEF0F8C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F88A3A6-1299-42D9-B2EE-D50512306BAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F88A3A6-1299-42D9-B2EE-D50512306BAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F88A3A6-1299-42D9-B2EE-D50512306BAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F88A3A6-1299-42D9-B2EE-D50512306BAE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F29354A7-EFB3-4637-AB8F-C4AD2C318C32}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F29354A7-EFB3-4637-AB8F-C4AD2C318C32}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F29354A7-EFB3-4637-AB8F-C4AD2C318C32}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F29354A7-EFB3-4637-AB8F-C4AD2C318C32}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F86843E-9E93-4CAD-82D1-135CCB9B0C39}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F86843E-9E93-4CAD-82D1-135CCB9B0C39}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F86843E-9E93-4CAD-82D1-135CCB9B0C39}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F86843E-9E93-4CAD-82D1-135CCB9B0C39}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1A174179-BBEA-4686-B900-EF84DDEF0F8C} = {7061EF6C-1ACA-4D57-AE4B-F2010A24F933}
+		{0F88A3A6-1299-42D9-B2EE-D50512306BAE} = {7061EF6C-1ACA-4D57-AE4B-F2010A24F933}
+		{F29354A7-EFB3-4637-AB8F-C4AD2C318C32} = {F56DABD4-4A73-408C-9EC9-0F82639777D0}
+		{0F86843E-9E93-4CAD-82D1-135CCB9B0C39} = {8C26AEE3-85CB-4BA1-90D0-EC72361C3312}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DBD1018C-2086-4044-8EB1-0E2F7BB24356}
+	EndGlobalSection
+EndGlobal
